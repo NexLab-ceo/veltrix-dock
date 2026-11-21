@@ -7,26 +7,26 @@ VELTRIX Dock позволяет управлять сервисами и под�
 ## Документация
 
 - **Документация:** https://docs.veltrix.com
-- **Загрузки и релизы:** https://github.com/NexLab-ceo/veltrix-dock/releases
+- **Загрузки и релизы:** https://github.com/NexLab-ceo/Yevqo-dock/releases
 - **Исходный код:** https://github.com/NexLab-ceo/veltrix
 
 ## Установка
 
-Скачайте подходящий пакет .deb из [последнего релиза](https://github.com/NexLab-ceo/veltrix-dock/releases/latest).
+Скачайте подходящий пакет .deb из [последнего релиза](https://github.com/NexLab-ceo/veltrix-dock/releases/latest). Релизы автоматически публикуются сборкой Yevqo и содержат оба пакета и файл SHA-256. Установленные пакеты автоматически проверяют обновления каждые 6 часов.
 
 В Termux установите зависимости и выбранный пакет:
 
     pkg update
     pkg install mariadb php git termux-services
-    pkg install ./veltrix-all_<version>_aarch64.deb
+    pkg install ./yevqo-all_<version>_aarch64.deb
 
 Для устройства только с Agent:
 
     pkg update
     pkg install php git termux-services
-    pkg install ./veltrix-agent_<version>_aarch64.deb
+    pkg install ./yevqo_<version>_aarch64.deb
 
-Замените <version> на версию из имени скачанного файла. На одном устройстве устанавливайте **один** пакет: veltrix-all для устройства Control Plane (он также содержит Agent) или veltrix-agent для удалённого устройства. Если скачаны оба файла, не используйте маску pkg install ./veltrix-*.deb: она может выбрать оба пакета.
+Замените <version> на версию из имени скачанного файла. На одном устройстве устанавливайте **один** пакет: yevqo-all для устройства Control Plane (он также содержит Agent) или yevqo для удалённого устройства. Если скачаны оба файла, не используйте маску pkg install ./veltrix-*.deb: она может выбрать оба пакета.
 
 ## Пакеты
 
