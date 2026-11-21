@@ -7,8 +7,8 @@ VELTRIX Dock позволяет управлять сервисами и под�
 ## Документация
 
 - **Документация:** https://docs.veltrix.com
-- **Загрузки и релизы:** https://github.com/NexLab-ceo/Yevqo-dock/releases
-- **Исходный код:** https://github.com/NexLab-ceo/veltrix
+- **Загрузки и релизы:** https://github.com/NexLab-ceo/veltrix-dock/releases
+- **Исходный код:** https://github.com/NexLab-ceo/Yevqo
 
 ## Установка
 
