@@ -26,7 +26,7 @@ For an Agent-only device:
     pkg install php git termux-services
     pkg install ./yevqo_<version>_aarch64.deb
 
-Replace <version> with the version in the downloaded filename. Install **one** package per device: veltrix-all for the Control Plane host (which also includes the Agent), or veltrix-agent for a remote Agent. If both files are present, do not use the wildcard pkg install ./veltrix-*.deb, as it may select both packages.
+Replace <version> with the version in the downloaded filename. Install **one** package per device: yevqo-all for the Control Plane host (which also includes the Agent), or yevqo for a remote Agent. If both files are present, do not use the wildcard pkg install ./yevqo*.deb, as it may select both packages.
 
 ## Packages
 
